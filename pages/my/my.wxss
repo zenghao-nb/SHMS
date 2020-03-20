@@ -1,6 +1,0 @@
-/* pages/my/my.wxss */
-.photo{
-  height: 50px;
-  width: 50px;
-  border: 1p solid red
-}
