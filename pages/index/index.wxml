@@ -1,4 +1,5 @@
 <!-- 头像 -->
 <view class="userPhoto">
   <image src="/image/1.png"></image>
+  <text>测试</text>
 </view>
