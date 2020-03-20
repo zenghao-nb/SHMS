@@ -1,0 +1,35 @@
+/* pages/arrive/arrive.wxss */
+/* pages/holidayWrite/holidayWrite.wxss */
+.infor{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0;
+  align-items: center
+}
+.infor input{
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 70%;
+  height: 40px;
+  text-indent: 10px;
+}
+.location input{
+  width: 45%;
+}
+.location image{
+  width: 40px;
+  height: 40px
+}
+.isarrive{
+  margin-left: 20px;
+  font-size: 20px;
+  
+}
+/* .section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+} */

@@ -1,0 +1,28 @@
+/* pages/check/check.wxss */
+.sid,.sname,.isArrive,#phone,.location{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center */
+}
+
+.sname,.sid,.isArrive,.phone,.location{
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 20px
+}
+.sname #sname,.sid #sid,.phone{
+  height: 30px;
+  border-bottom: 2px dotted #ccc;
+}
+button{
+  width: 20%;
+  background:greenyellow
+}
+image{
+  height: 20px;
+  width: 20px;
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-left:10px 
+}

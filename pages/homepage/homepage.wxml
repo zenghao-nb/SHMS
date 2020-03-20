@@ -1,0 +1,32 @@
+<!-- 头部滑框 -->
+<view class='main'>
+  <swiper indicator-dots='true' indicator-color='white' autoplay='true' interval='3000' style="height:150px">
+    <view wx:for="{{photoList}}" wx:key="*this">
+      <swiper-item>
+        <image src='{{item.photoUrl}}' style="width:100%"></image>
+      </swiper-item>
+    </view>
+  </swiper>
+</view>
+<!-- 中间swiper操作区 -->
+<scroll-view class="scroll-zc" enable-flex="true" scroll-x="true">
+  <view class="scroll-zc-item" bindtap="enterholiday">
+    <image src="/image/icon_blue/bianji.png"></image>
+    <text>假期去向填写</text>
+  </view>
+  <view class="scroll-zc-item" bindtap="enterarrive">
+    <image src="/image/icon_blue/chuangzuo.png"></image>
+    <text>到校签到</text>
+  </view>
+  <view class="scroll-zc-item">
+    <image src="/image/icon_blue/dianyingpiao.png"></image>
+    <text>假期身体状况填写</text>
+  </view>
+</scroll-view>
+<!-- 底部展示区 -->
+<view class="holidaything" bindtap="holidaything">
+  <view class="title">关于寒假放假事项</view>
+  <view class="content">
+    寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项寒假放假注意事项
+  </view>
+</view>

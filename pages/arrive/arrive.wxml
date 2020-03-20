@@ -1,0 +1,29 @@
+<view>  <map longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" markers="{{markers}}" polygons="{{polygons}}" style="width: 100%; height: 400px;"></map></view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <label class="infor">
+    <text>姓名::</text>
+    <input type="text" placeholder="请输入姓名"></input>
+  </label>
+  <label class="infor">
+    <text>手机号:</text>
+    <input type="number" maxlength="11" placeholder="请输入11位手机号码"></input>
+  </label>
+  <!-- <label class="infor">
+    <text>宿舍号:</text>
+    <input type="value" maxlength="7" placeholder="例如D2-1079"></input>
+  </label> -->
+    <label class="infor location">
+    <text>签到定位:</text>
+    <view class="isarrive" >{{isarrive}}</view>
+    <!-- <button type="primary" bindtap="arrivelocation">签到</button> -->
+    <image src="/image/icon_blue/location.png" bindtap="arrivelocation"></image>
+  </label>
+  <label  class="infor">
+    <view>设置位置授权</view>
+    <button bindtap="openlocation">打开授权设置</button>
+  </label>
+  <view class="btn-area">
+    <button formType="submit" type="primary">提交</button>
+  </view>
+</form>
+

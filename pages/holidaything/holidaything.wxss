@@ -1,0 +1,23 @@
+/* pages/holidaything/holidaything.wxss */
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "宋体"
+
+}
+.content{
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-indent: 2em;
+  line-height: 25px;
+  font-family: "宋体"
+}
+.luokuan{
+  margin-top: 20px;
+  margin-right: 15px;
+  text-align: right;
+   font-family: "宋体"
+}

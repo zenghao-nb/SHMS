@@ -1,0 +1,16 @@
+<view>
+  <map id="map" class='my-map' longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" markers="{{markers}}" polygons="{{polygons}}">
+    <!-- <cover-view class='controls'>
+      <cover-view bindtap='scaleJia'>
+        <cover-image class='controls-icon' src='/image/2.png'></cover-image>
+      </cover-view>
+      <cover-view bindtap='scaleJian'>
+        <cover-image class='controls-icon' src='/image/2.png'></cover-image>
+      </cover-view>
+    </cover-view> -->
+  </map>
+  <view class='location'>
+ 
+  </view>
+  <button>提交</button>
+</view>

@@ -1,0 +1,4 @@
+<!-- 头像 -->
+<view class="userPhoto">
+  <image src="/image/1.png"></image>
+</view>

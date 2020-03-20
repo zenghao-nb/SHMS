@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/homepage/homepage",
+    "pages/arrive/arrive",
+    "pages/check/check",
+    "pages/map/map",
+    "pages/my/my",
+    "pages/holidayWrite/holidayWrite",
+    "pages/holidaything/holidaything"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#6699FF",
+    "navigationBarTitleText": "成都东软学院假期管理系统-学生端",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#6699FF",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#6699FF",
+    "backgroundColor": "#ffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/homepage/homepage",
+        "text": "主页",
+        "iconPath": "image/icon_grey/all.png",
+        "selectedIconPath": "image/icon_blue/all.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "image/icon_grey/bussiness-man.png",
+        "selectedIconPath": "image/icon_blue/bussiness-man.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "将用于到校定位签到"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

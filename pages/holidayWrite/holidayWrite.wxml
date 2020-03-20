@@ -1,0 +1,50 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <label class="infor">
+    <text>姓名:</text>
+    <input type="text"></input>
+  </label>
+  <label class="infor">
+    <text>手机号:</text>
+    <input type="number" maxlength="11"></input>
+  </label>
+  <label class="infor">
+    <text>宿舍号:</text>
+    <input type="value" maxlength="7"></input>
+  </label>
+  <label class="infor">
+    <text>是否留校:</text>
+    <radio-group>
+      <label class="liuxiao">
+        <radio value="1"></radio>
+        <text>留校</text>
+      </label>
+      <label>
+        <radio value="2"></radio>
+        <text>回家</text>
+      </label>
+    </radio-group>
+  </label>
+  <label>
+    <view class="section">
+      <view class="section__title">离校时间</view>
+      <picker mode="date" value="{{sdate}}" start="2020-03-03" end="2030-09-01" bindchange="bindDateChanges" class="timepicker">
+        <view class="picker">
+          {{sdate}}
+        </view>
+      </picker>
+    </view>
+  </label>
+    <label>
+    <view class="section">
+      <view class="section__title">到校时间</view>
+      <picker mode="date" value="{{edate}}" start="2020-03-03" end="2030-09-01" bindchange="bindDateChangee" class="timepicker">
+        <view class="picker">
+          {{edate}}
+        </view>
+      </picker>
+    </view>
+  </label>
+  <view class="btn-area">
+    <button formType="submit" type="primary">提交</button>
+  </view>
+</form>

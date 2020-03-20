@@ -1,0 +1,62 @@
+.scroll-zc {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  /* background-color: pink */
+}
+
+.scroll-zc-item {
+  flex-basis: 30%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 5px;
+  text-align: center;
+  /* 加一个不缩小的属性 */
+  flex-shrink: 0;
+}
+
+.scroll-zc-item image {
+  width: 50px;
+  height: 50px;
+}
+
+.scroll-zc-item text {
+  font-size: 11px;
+  margin-top: -50px;
+}
+
+.holidaything {
+  width: 90%;
+  height: 100px;
+  margin: 10px auto;
+  border: 1px solid #6699FF;
+  padding: 6px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px #6699FF;
+}
+.title{
+  font-size: 16px;
+  color: black;
+  font-weight: bold
+}
+.content {
+  text-indent: 2em;
+  display: -webkit-box;
+  font-size: 14px;
+  color: grey;
+  line-height: 60rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical; /*子元素排列 vertical（竖排）*/
+  -webkit-line-clamp:3; /*设置显示的多少行。*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}

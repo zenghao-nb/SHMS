@@ -1,0 +1,30 @@
+<!--pages/check/check.wxml-->
+<form bindsubmit="formSubmit">
+  <view class='sname'>
+    <text>姓名：</text>
+    <input type='text' id='sname' name='sname'></input>
+  </view>
+  <view class='sid'>
+    <text>学号：</text>
+    <input type='text' id="sid" name='sid'></input>
+  </view>
+  <view class='sname'>
+    <text>电话：</text>
+    <input type='number' id='sname' name='stel'></input>
+  </view>
+  <view class='isArrive'>
+    <text>到校情况：</text>
+    <radio-group name='isArrive' class='sex'>
+      <radio value='到校'>到校</radio>
+      <radio value='未到'>未到校</radio>
+    </radio-group>
+  </view>
+  <view class='location'>
+    定位:<image src='../../image/location.png' bindtap='map'></image>
+  
+  </view>
+  <view>
+    <button form-type='submit'>提交:</button>
+  </view>
+
+</form>
