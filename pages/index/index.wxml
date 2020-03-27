@@ -1,5 +1,21 @@
-<!-- 头像 -->
-<view class="userPhoto">
-  <image src="/image/1.png"></image>
-  <text>测试</text>
-</view>
+<form bindsubmit="formSubmit" bindreset="formReset">
+ <view class="title">学生用户登录</view>
+  <view class="section">
+    <view class="section__title">学号</view>
+    <input name="phone" placeholder="学号" />
+  </view>
+  <view class="section">
+    <view class="section__title">密码</view>
+    <input name="pwd" placeholder="密码" password/>
+  </view>
+  <view class="btn-area">
+    <button formType="submit" >提交</button>
+    <button formType="reset">重置</button>
+  </view>
+</form>
+
+
+<!-- <image src="{{userPhoto}}"></image>
+{{userName}} {{canIUse}} -->
+<!-- <button bindtap="mywxLogin" type="primary">wx.login</button>
+<button type="primary" open-type="getUserInfo" bindgetuserinfo="mygetuserinfo">wx.getUserInfo</button> -->
