@@ -6,14 +6,13 @@
     "pages/arrive/arrive",
     "pages/check/check",
     "pages/map/map",
-    "pages/my/my",
     "pages/holidayWrite/holidayWrite",
     "pages/holidaything/holidaything"
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#6699FF",
-    "navigationBarTitleText": "成都东软学院假期管理系统-学生端",
+    "navigationBarTitleText": "成都东软学院假期去向填写系统-学生端",
     "navigationBarTextStyle": "white",
     "backgroundColor": "#6699FF",
     "enablePullDownRefresh": true
